@@ -2,6 +2,7 @@
 
 # Xcode
 #
+Build/
 xcuserdata
 *.xccheckout
 
