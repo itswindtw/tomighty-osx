@@ -1,0 +1,5 @@
+target 'TomightyTests' do
+  pod 'OCHamcrest'
+  pod 'OCMockito'
+end
+
