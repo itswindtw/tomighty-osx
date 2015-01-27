@@ -69,8 +69,8 @@
 }
 
 - (void)initMenuItemsIcons:(TYImageLoader *)imageLoader {
-    [self.remainingTimeMenuItem setImage:[imageLoader loadIcon:@"icon-clock"]];
-    [self.stopTimerMenuItem setImage:[imageLoader loadIcon:@"icon-stop-timer"]];
+    [self.remainingTimeMenuItem setImage:[imageLoader loadIconTemplate:@"icon-clock"]];
+    [self.stopTimerMenuItem setImage:[imageLoader loadIconTemplate:@"icon-stop-timer"]];
     [self.startPomodoroMenuItem setImage:[imageLoader loadIcon:@"icon-start-pomodoro"]];
     [self.startShortBreakMenuItem setImage:[imageLoader loadIcon:@"icon-start-short-break"]];
     [self.startLongBreakMenuItem setImage:[imageLoader loadIcon:@"icon-start-long-break"]];
