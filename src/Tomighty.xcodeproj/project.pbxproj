@@ -59,6 +59,7 @@
 		30DB72F618CD4FC800293915 /* TYTomightyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB72F518CD4FC800293915 /* TYTomightyTests.m */; };
 		30DB72FA18CD54D200293915 /* TYDefaultTomighty.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB72F918CD54D200293915 /* TYDefaultTomighty.m */; };
 		E8403346AF57D43E3B110915 /* libPods-TomightyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE17989027DD26BDC688EB94 /* libPods-TomightyTests.a */; };
+		FD9B7CF41A7864E8008CE8E0 /* TYNotificationAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B7CF31A7864E8008CE8E0 /* TYNotificationAgent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +174,8 @@
 		30DB72F918CD54D200293915 /* TYDefaultTomighty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYDefaultTomighty.m; path = Core/TYDefaultTomighty.m; sourceTree = "<group>"; };
 		76E5287D315B63E459DB096E /* Pods-TomightyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomightyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomightyTests/Pods-TomightyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9163A668EACE41C2CE525409 /* Pods-TomightyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomightyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomightyTests/Pods-TomightyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD9B7CF21A7864E8008CE8E0 /* TYNotificationAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYNotificationAgent.h; path = Core/Reactive/TYNotificationAgent.h; sourceTree = "<group>"; };
+		FD9B7CF31A7864E8008CE8E0 /* TYNotificationAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYNotificationAgent.m; path = Core/Reactive/TYNotificationAgent.m; sourceTree = "<group>"; };
 		FE17989027DD26BDC688EB94 /* libPods-TomightyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TomightyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -340,10 +343,10 @@
 		304AF84918BD117200A2EA74 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				30BD314718C566B400428B1E /* Sound */,
 				3039D2F118C4DF47008689C9 /* Event */,
 				30415FAF18C51B4D0069FAE3 /* Preferences */,
 				309C5B1918C635DD001B4359 /* Reactive */,
-				30BD314718C566B400428B1E /* Sound */,
 				301A007618BD413400B8DEE0 /* Timer */,
 				305D161518CD029F00CE6A34 /* UI */,
 				30DB72F718CD54C000293915 /* TYTomighty.h */,
@@ -398,6 +401,8 @@
 				3032EEE918C6BCBC00070BD2 /* TYSyntheticEventPublisher.m */,
 				305D161718CD030400CE6A34 /* TYUserInterfaceAgent.h */,
 				305D161818CD030400CE6A34 /* TYUserInterfaceAgent.m */,
+				FD9B7CF21A7864E8008CE8E0 /* TYNotificationAgent.h */,
+				FD9B7CF31A7864E8008CE8E0 /* TYNotificationAgent.m */,
 			);
 			name = Reactive;
 			sourceTree = "<group>";
@@ -650,6 +655,7 @@
 				309C5B1D18C636BB001B4359 /* TYSoundAgent.m in Sources */,
 				30C383E018CFE02100FABFFE /* TYDefaultAppUI.m in Sources */,
 				30415FB618C51C290069FAE3 /* TYUserDefaultsPreferences.m in Sources */,
+				FD9B7CF41A7864E8008CE8E0 /* TYNotificationAgent.m in Sources */,
 				3039D2F518C4DF7C008689C9 /* TYDefaultEventBus.m in Sources */,
 				309394EA18D0CBEC00D6C71A /* TYImageLoader.m in Sources */,
 				304AF82918BD04BE00A2EA74 /* TYAppDelegate.m in Sources */,
